@@ -1,0 +1,106 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "NFT",
+      "patterns": [
+        "What are NFT?",
+        "How do i mint a NFT?"
+      ],
+      "responses": [
+        "NFTs is an acronym for Non-Fungible Tokens.Non-Fungible in the sense that they are unique and cannot be interchanged like fungible assets such as Bitcoin. Lets take for example if you exchange a Bitcoin to get another, nothing changes, you still get the same Bitcoin back — it’s the opposite in the case of NFTs."
+      ]
+    },
+    {
+      "tag": "create",
+      "patterns": [
+        "How do i create an NFT?"
+      ],
+      "responses": [
+        "You can mint or create an NFT by going to the 'List NFT' section of Parivartan."
+      ]
+    },
+    {
+      "tag": "mint",
+      "patterns": [
+        "How do i mint NFT?"
+      ],
+      "responses": [
+        "You can mint or create an NFT by going to the 'List NFT' section of Parivartan."
+      ]
+    },
+    {
+      "tag": "wallet",
+      "patterns": [
+        "What is a crypto wallet?",
+        "How do i connect my wallet?"
+      ],
+      "responses": [
+        "Unlike a normal wallet, which can hold actual cash, crypto wallets technically don’t store your crypto. Your holdings live on the blockchain, but can only be accessed using a private key. You can connect your metamask wallet by clicking on the top right section named 'Connect Wallet'"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "How will i get paid if someone buys my NFT?"
+      ],
+      "responses": [
+        "You will be paid in crypto which will directly be sent to you connected wallet"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
