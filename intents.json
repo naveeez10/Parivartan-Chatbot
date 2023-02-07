@@ -34,6 +34,7 @@
     {
       "tag": "NFT",
       "patterns": [
+        "What is an NFT",
         "What are NFT?",
         "How do i mint a NFT?"
       ],
@@ -76,18 +77,6 @@
       ],
       "responses": [
         "You will be paid in crypto which will directly be sent to you connected wallet"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
       ]
     },
     {
