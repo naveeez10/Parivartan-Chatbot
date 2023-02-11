@@ -29,6 +29,17 @@ bot_name = "viz"
 
 
 def get_response(msg):
+    if msg == '1':
+        return "You can add funds to metamask using any methods out of the following: Credit Cards, Debit Cards, UPI, and Net Banking"
+    elif msg == '2':
+        return "You can withdraw funds directly to your linked bank account."
+    elif msg == '3':
+        return "Bank accounts are centralized, i.e., if the bank fails, you lose your funds. It has a single authority that is also a point of failure. In contrast, wallets are decentralized and provide better security."
+    elif msg == '4':
+        return "To connect any wallet, you can just add the said wallet's extension to your browser. After that, you can click on the 'Connect Wallet' button the homepage to connect your wallet"
+    elif msg == '5':
+        return "When you set up your wallet, you are given a 12 word security phrase which you should only keep to yourself. It can be used to retrieve the account in case it's lost"
+
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
@@ -46,7 +57,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
 
-    return "I do not understand..."
+    return "I do not understand...Here are some questions i am asked often: \n 1. How to add funds to my wallet? \n 2. How to withdraw funds from my wallet? \n 3. Why can't I use my bank account instead of a wallet? \n 4. How to connect my wallet? \n 5. How do you secure a wallet?. \n Choose one of the above numbers or ask any other questions you have"
 
 
 if __name__ == "__main__":

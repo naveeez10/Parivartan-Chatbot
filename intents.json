@@ -39,7 +39,7 @@
         "How do i mint a NFT?"
       ],
       "responses": [
-        "NFTs is an acronym for Non-Fungible Tokens.Non-Fungible in the sense that they are unique and cannot be interchanged like fungible assets such as Bitcoin. Lets take for example if you exchange a Bitcoin to get another, nothing changes, you still get the same Bitcoin back — it’s the opposite in the case of NFTs."
+        "NFTs is an acronym for Non-Fungible Tokens.Non-Fungible in the sense that they are unique and cannot be interchanged like fungible assets such as Bitcoin. Lets take for example if you exchange a Bitcoin to get another, nothing changes, you still get the same Bitcoin back — its the opposite in the case of NFTs."
       ]
     },
     {
@@ -49,6 +49,15 @@
       ],
       "responses": [
         "You can mint or create an NFT by going to the 'List NFT' section of Parivartan."
+      ]
+    },
+    {
+      "tag": "gas",
+      "patterns": [
+        "What are gas fees?"
+      ],
+      "responses": [
+        "Gas fees are the fees paid by the user to push changes on to the blockchain. Gas fees are variable. They depend heavily on the amount of of traffic on the chain. We plan to reduce our gas fees using biconomy in the future"
       ]
     },
     {
@@ -67,7 +76,7 @@
         "How do i connect my wallet?"
       ],
       "responses": [
-        "Unlike a normal wallet, which can hold actual cash, crypto wallets technically don’t store your crypto. Your holdings live on the blockchain, but can only be accessed using a private key. You can connect your metamask wallet by clicking on the top right section named 'Connect Wallet'"
+        "Unlike a normal wallet, which can hold actual cash, crypto wallets technically dont store your crypto. Your holdings live on the blockchain, but can only be accessed using a private key. You can connect your metamask wallet by clicking on the top right section named 'Connect Wallet'"
       ]
     },
     {
